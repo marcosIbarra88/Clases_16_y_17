@@ -1,5 +1,5 @@
 {
-  "name": "clases_16_y_17",
+  "name": "entrega4",
   "version": "1.0.0",
   "description": "Prueba1",
   "main": "index.js",
@@ -14,5 +14,13 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "ibarra marcos",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosIbarra88/Entrega4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcosIbarra88/Entrega4/issues"
+  },
+  "homepage": "https://github.com/marcosIbarra88/Entrega4#readme"
 }
