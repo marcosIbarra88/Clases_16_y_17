@@ -1,0 +1,25 @@
+table {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: $color-letra;
+  list-style: none;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.titulazo {
+  color: $color-letra;
+  &__subtitulazo {
+    color: $color-letra;
+  }
+  &__content {
+    color: $color-letra;
+  }
+}

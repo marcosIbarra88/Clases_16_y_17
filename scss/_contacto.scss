@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: $background;
+  color: rgb(210, 233, 233);
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &__title {
+    color: rgb(173, 245, 255);
+  }
+}
+/*animacion*/
+
+input {
+  width: 200px;
+  height: 50px;
+  transition: all 2s;
+}
+input:focus {
+  width: 200px;
+  font-size: 24px;
+}

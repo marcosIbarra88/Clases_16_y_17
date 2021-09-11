@@ -1,0 +1,26 @@
+img {
+  display: flex;
+  max-width: 99%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: $background;
+  color: rgb(210, 233, 233);
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &__title {
+    color: rgb(173, 245, 255);
+    transform: hover scale(1.5);
+  }
+
+  &__content {
+    display: flex;
+  }
+}
+.header__links a:hover {
+  background-image: linear-gradient(rgb(22, 166, 223), rgb(22, 21, 73));
+  color: rgb(210, 233, 233);
+}

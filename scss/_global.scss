@@ -1,0 +1,42 @@
+body {
+  background: $background;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $background;
+  align-content: space-between;
+  &__logo {
+    border-radius: 10%;
+  }
+  &__links {
+    text-align: center;
+    align-content: space-between;
+  }
+  &__link {
+    color: rgb(231, 228, 224);
+    text-decoration: none;
+    align-content: space-between;
+    margin: 2px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  background: linear-gradient(rgb(14, 50, 59), rgb(16, 117, 233));
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border: black solid;
+  &__texto {
+    color: rgb(27, 93, 155);
+  }
+}

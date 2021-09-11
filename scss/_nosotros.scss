@@ -1,0 +1,36 @@
+section {
+  display: flex;
+  color: $color-letra;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  &__title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(173, 245, 255);
+  }
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  background: $background;
+}
+.main {
+  background-color: $background;
+  color: rgb(210, 233, 233);
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &__title {
+    color: rgb(173, 245, 255);
+  }
+}
+img {
+  display: flex;
+  max-width: 99%;
+}
